@@ -2,7 +2,7 @@
 using Owin;
 using WebAppSoC.Infrastructure.Crosscutting.Security.Startup;
 
-[assembly: OwinStartup("ProductionConfiguration", typeof(WebAppIdentityDemo.Startup))]
+[assembly: OwinStartup("StartupConfiguration", typeof(WebAppIdentityDemo.Startup))]
 namespace WebAppIdentityDemo
 {
     public class Startup
