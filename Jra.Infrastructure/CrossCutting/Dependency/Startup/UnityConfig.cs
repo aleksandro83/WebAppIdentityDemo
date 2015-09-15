@@ -4,7 +4,6 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security;
 using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.Configuration;
 using WebAppSoC.Infrastructure.Crosscutting.Security;
 
 namespace Jra.Infrastructure.App_Start
